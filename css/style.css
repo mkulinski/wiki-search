@@ -19,3 +19,6 @@ form {
 ul {
     list-style: none;
 }
+.main-results {
+    display: none;
+}

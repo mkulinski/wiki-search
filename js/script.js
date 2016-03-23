@@ -3,6 +3,7 @@
  */
 $(document).ready(function(){
     $("button").click( function(){
+        $('.main-results').css("display", "block");
         var searchFor = $('input').val();
 
         $.getJSON("https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=" + searchFor + "&callback=?", function (data) {
